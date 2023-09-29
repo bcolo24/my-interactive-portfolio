@@ -10,11 +10,11 @@
     background-color: rgb(216, 184, 168);
 }
 
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+} */
 
 nav li {
     display: inline;
@@ -55,24 +55,33 @@ img{
     width: 30%;
     border-radius:8px;
     align-content:center;
+    /* max-width: 100%;
+    height: auto; */
 }
+
+.information{
+    text-align: center;
+    margin: 0% 20% 3% 20%;
+    font-family:Verdana, Tahoma, sans-serif
+}
+
 #aboutme{
     color: rgb(114, 97, 90);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
     font-size: 50px;
 } 
 
 #work{
     color: rgb(114, 97, 90);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
     font-size: 50px;
 } 
 
 #contact{
     color: rgb(114, 97, 90);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
     font-size: 50px;
 } 
