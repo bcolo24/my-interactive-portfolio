@@ -66,25 +66,27 @@ h1 {
 }
 
 .flex-container1:hover {
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .flex-container1 {
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+    /* margin: 0px;
+    padding: 0px; */
+    width: 45%;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
 }
 
 .flex-container2 {
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    flex-wrap: wrap-reverse;
-    justify-content: right;
+    /* margin: 0px;
+    padding: 0px; */
+    width: 30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* float: left; */
+    /* justify-content: space-evenly; */
 }
 
 #aboutme{
