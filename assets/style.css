@@ -1,14 +1,10 @@
+/* Universal */
 *{
     margin:0;
     padding:0;
 }
 
-/* ul {
-    color: white;
-    margin: 0;
-    padding: 0;
-} */
-
+/* Element */
 nav a {
     color:inherit;
 }
@@ -45,8 +41,17 @@ h1 {
    text-shadow: 2px 2px 5px black;
 }
 
+footer {
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+}
 
+footer::after {
+    content:"♡";
+}
 
+/* Class */
 .text-right {
     margin:0;
     padding: 14px 16px;
@@ -58,14 +63,12 @@ h1 {
     text-align: center;
     margin: 0% 20% 3% 20%;
     font-family:Verdana, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .flex-container2 {
     display: flex;
     margin: 20px;
-    /* padding: 0px; */
-    /* width: 30%; */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -86,13 +89,14 @@ h1 {
 }
 
 .contactinfo ul {
-    display: inline;
-    font-size: 25px;
+    font-size: 28px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     text-align: center;
+    margin-bottom: 150px;
 }
 
+/* id */
  #profilepic  {
     display: block;
     margin-left: auto;
@@ -100,15 +104,11 @@ h1 {
     width: 30%;
     border-radius:8px;
     align-content:center;
-    /* max-width: 100%;
-    height: auto; */
 }
 
 #featured {
     display: flex;
     flex: 2 0 90%;
-    /* margin: 0px;
-    padding: 0px; */
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -118,7 +118,7 @@ h1 {
     color: rgb(114, 97, 90);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
 } 
 
 #work {
@@ -126,7 +126,7 @@ h1 {
     color: rgb(114, 97, 90);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
 } 
 
 #contact {
@@ -134,17 +134,10 @@ h1 {
     color: rgb(114, 97, 90);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
 }
 
-/* #featured:hover {
-    opacity: 0.5;
-}
-
-#study-guide-effect:hover {
-    opacity: 0.5;
-} */
-
+/* Media Queries */
 @media screen and (min-width: 600px) {
     .flex-container2 {width: 200px; float: left;}
     /* #main {margin-left: 216px;} */
