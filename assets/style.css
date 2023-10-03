@@ -57,28 +57,21 @@ h1 {
 .information{
     text-align: center;
     margin: 0% 20% 3% 20%;
-    font-family:Verdana, Tahoma, sans-serif
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 20px;
 }
-
-
-
-/* .flex-container2:hover {
-    opacity: 0.5;
-} */
-
 
 .flex-container2 {
     display: flex;
-    /* margin: 0px;
-    padding: 0px; */
+    margin: 20px;
+    /* padding: 0px; */
     /* width: 30%; */
     flex-direction: row;
     flex-wrap: wrap;
-    /* float: left; */
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     flex: 1 0 40%;
-    min-height: 175px;
-    max-height: 175px;
+    min-height: 250px;
+    max-height: 250px;
 }
 
 .projects {
@@ -88,8 +81,16 @@ h1 {
 }
 
 .projects img{
-    max-height: 150px;
-    
+    max-height: 250px;
+
+}
+
+.contactinfo ul {
+    display: inline;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
 }
 
  #profilepic  {
@@ -136,6 +137,27 @@ h1 {
     font-size: 50px;
 }
 
-#featured:hover {
+/* #featured:hover {
     opacity: 0.5;
 }
+
+#study-guide-effect:hover {
+    opacity: 0.5;
+} */
+
+@media screen and (min-width: 600px) {
+    .flex-container2 {width: 200px; float: left;}
+    /* #main {margin-left: 216px;} */
+  }
+
+  @media screen and (max-width: 600px) {
+    .text-right {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .information {
+      font-size: 25px;
+    }
+  }
