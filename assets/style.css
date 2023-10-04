@@ -63,7 +63,7 @@ footer::after {
 }
 
 .information{
-    text-align: left;
+    text-align: center;
     margin: 0% 20% 3% 20%;
     font-family:Verdana, Tahoma, sans-serif;
     font-size: 22px;
@@ -118,6 +118,14 @@ footer::after {
     flex: 2 0 90%;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#featured:hover {
+     opacity: 0.5;
+}
+
+#study-guide-effect:hover {
+    opacity: 0.5
 }
 
 #aboutme {
@@ -179,5 +187,3 @@ footer::after {
       margin: 1% 3%;
     }
 }
-
-
