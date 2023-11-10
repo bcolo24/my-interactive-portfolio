@@ -74,7 +74,8 @@ footer::after {
     margin: 20px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     flex: 1 0 40%;
     min-height: 400px;
     max-height: 400px;
@@ -120,14 +121,17 @@ footer::after {
     justify-content: center;
 }
 
-#featured:hover {
+#featured img:hover {
      opacity: 0.5;
 }
 
-#study-guide-effect:hover {
-    opacity: 0.5
+#study-guide-effect img:hover {
+    opacity: 0.5;
+    width: 400px;
 }
-
+#five-star img:hover {
+    opacity: 0.5;
+}
 #aboutme {
     margin: 1%;
     color: rgb(114, 97, 90);
